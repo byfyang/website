@@ -1,0 +1,70 @@
+body{
+	background: url("http://i.imgur.com/NMK1Ldk.jpg");
+	background-size: cover;
+	color: white;
+
+}
+header{
+	text-align: center;
+/*	background: url('http://static6.businessinsider.com/image/5187e8ee6bb3f78d35000002/the-golden-state-warriors-are-building-a-500-million-arena-on-the-san-francisco-waterfront--and-it-looks-spectacular.jpg');*/
+	background-size: center;
+	color: white;
+	font-size: 36px ;
+	}
+img{
+	margin: 40px 0px 0px 0px;
+	border: 7px solid black;
+	border-radius: 20px;
+	background-position: left;
+}
+
+h1{
+	font-family: "comic sans ms";
+	text-align: center;	
+}
+
+h2{
+	font-family: "comic sans ms";
+	text-align: ;
+}
+
+h3{
+	font-size: 18px;
+	font-family: "comic sans ms";
+	text-align: ;
+}
+
+h4{
+	font-size: 18px;
+	font-family: "comic sans ms";
+}
+article{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*nav bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
