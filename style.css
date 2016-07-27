@@ -1,7 +1,38 @@
+/*nav bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+	margin-bottom: auto;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/**/
+
 body{
-	background: url("http://i.imgur.com/NMK1Ldk.jpg");
+/*	background: url("http://i.imgur.com/NMK1Ldk.jpg");*/
 	background-size: cover;
-	color: white;
+	color: black;
+	margin: auto;
 
 }
 header{
@@ -21,17 +52,18 @@ img{
 h1{
 	font-family: "comic sans ms";
 	text-align: center;	
+	margin-top: 80px;
 }
 
 h2{
 	font-family: "comic sans ms";
-	text-align: ;
+	text-align: center;
 }
 
 h3{
 	font-size: 18px;
 	font-family: "comic sans ms";
-	text-align: ;
+	text-align: center;
 }
 
 h4{
@@ -44,27 +76,25 @@ article{
 	text-align: center;
 }
 
-/*nav bar*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+p{
+	text-align: center;
 }
 
-li {
-    float: right;
+/*name card*/
+#name{
+	text-align: center;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.projects{
+	text-align: center;
 }
 
-li a:hover {
-    background-color: #111;
+.footer {
+  position: ;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
