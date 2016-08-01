@@ -29,10 +29,12 @@ li a:hover {
 /**/
 
 body{
-	background: url("images/bridge.jpg");
-	background-size: cover;
+/*	background: url("images/bridge.jpg");
+	background-size: cover;*/
 	color: white;
 	margin: auto;
+	background-color: black;
+	
 
 }
 header{
@@ -100,6 +102,8 @@ p{
 
 .projects{
 	text-align: center;
+	/*opacity: 0.5;*/
+	color: black;
 }
 
 .footer {
