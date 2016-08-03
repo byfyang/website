@@ -29,8 +29,8 @@ li a:hover {
 /**/
 
 body{
-/*	background: url("images/bridge.jpg");
-	background-size: cover;*/
+	background: url("images/steth.jpg");
+	background-size: cover;
 	color: white;
 	margin: auto;
 	background-color: black;
@@ -55,7 +55,10 @@ img{
 .tagline{
 	text-align: center;
 	margin-top: 80px;
-	font-size: -webkit-xxx-large;
+	font-size: 50px;
+	font-family: Impact;
+	font-weight: bold;
+
 }
 
 .developer{
@@ -93,6 +96,10 @@ article{
 
 p{
 	text-align: center;
+}
+
+.about_me{
+
 }
 
 
